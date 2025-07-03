@@ -4,24 +4,6 @@ A toolset for processing and visualizing high-definition lane-level road topolog
 
 ---
 
-## 📁 Project Structure
-
-project-root/
-├── build/ # CMake build output (ignored in git)
-├── data/
-│ ├── berlin-tiles/ # Original raster tiles
-│ ├── reprojected-tiles/ # Reprojected tiles
-│ └── osm-data/ # Raw OSM inputs
-├── include/ # C++ headers
-├── src/ # C++/Python source files
-│ ├── osmReader.cpp
-│ ├── getTIFF.py
-│ ├── reprojectTiles.py
-│ ├── osmVerify.py
-│ └── randomTileIndices.json
-├── CMakeLists.txt
-└── .gitignore
-
 ## Building & Running the Project
 
 ### 1. Create a clean build directory
